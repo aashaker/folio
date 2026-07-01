@@ -1,135 +1,163 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects page</title>
-    <link href="./projects/style.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Badeen+Display&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link
+      href="/projects/style.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Badeen+Display&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-  <main>
-    <div id="homepage">
-      <h3>choose my carear</h3>
-      <div id="btns">
-      <button id="webdes"><p>web design</p></button>
-      <button id="gamedev"><p>game dev</p></button>
-      </div>
-
-    </div>
- 
-  </main>
-    <div id="pages">
-
-      <div id="webstuff" class="webshow">
-
-        <div id="toptitle" class="vibrate-1">
-        <img src="wing.png"/>
-        <h3 id="titletext">
-        مشاريعى
-        </h3>
+    <main>
+      <div id="home">
+        <h3>choose my carear</h3>
+        <div id="btnparents">
+                 <button id="webdesbtn">web design</button>
+        <button id="gamedevbtn">game dev</button>
         </div>
-        <div id="bacicsBlock">
-<div id="basicsBlock2"> 
-  <p id='basics'>عندك هنا مشاريع اتعلمت منها اساسيات</p>
-  <div id="line1"></div>
-</div>
-
-
-</div>
-
-
-  <div id="cardScroll">
-
-
-
-
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <div class="card1">
-      <p>glass generator</p>
-      <img id"glassimg" src="https://p.novaskin.me/1425323229.png" width="160px" height="auto">
-    </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="flip-card-backinv card1" onclick="window.location.href='/projects/glassgen';">
-      <h1></h1>
-      <p>a tool to generate glass morphism style popups</p>
-      <p>First project using the DOM</p>
+ 
       </div>
-    </div>
-    
-  </div>
-</div>
 
+      <div id="webdev">
+        <div class="bacicsBlock">
+          <div class="basicsBlock2">
+            <p class="basics">my spin on learning projects</p>
+            <div class="line1"></div>
+          </div>
+        </div>
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <div class="card1">
-      <p>Notes app</p>
-      <img src="notesapp.png" width="160px" height="auto">
-    </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="flip-card-backinv card1" onclick="window.location.href='/projects/notesapp';">
-      <h1></h1>
-      <p>Just the standard notes and todo list app</p>
-      <p>Was mostly playing around tbh</p>
+        <div id="cardScroll">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="card1">
+                  <p>glass generator</p>
+                  <img
+                    src="https://p.novaskin.me/1425323229.png"
+                    width="160px"
+                    height="auto"
+                  />
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div
+                  class="flip-card-backinv card1"
+                  onclick="window.location.href = '/projects/glassgen'"
+                >
+                  <h1></h1>
+                  <p>a tool to generate glass morphism style popups</p>
+                  <p>First project using the DOM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="card1">
+                  <p>Notes app</p>
+                  <img src="notesapp.png" width="160px" height="auto" />
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div
+                  class="flip-card-backinv card1"
+                  onclick="
+                    window.location.href =
+                      'https://aashaker.github.io/Notes-app/'
+                  "
+                >
+                  <h1></h1>
+                  <p>Just the standard notes and todo list app</p>
+                  <p>Was mostly playing around tbh</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="card1">
+                  <p>Stylized weather</p>
+                  <img src="weather.png" width="160px" height="auto" />
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div
+                  class="flip-card-backinv card1"
+                  onclick="
+                    window.location.href =
+                      'https://aashaker.github.io/stylized-weather/'
+                  "
+                >
+                  <h1></h1>
+                  <p>
+                    learned fetching data and dealing with json files and some
+                    generation basics
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="card1">
+                  <p>calculator</p>
+                  <img src="calculator.png" width="160px" height="auto" />
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <div
+                  class="flip-card-backinv card1"
+                  onclick="window.location.href = '/projects/calculator'"
+                >
+                  <h1></h1>
+                  <p>
+                    was done to get more comfortable with functions and better
+                    dom manipulation
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    
-  </div>
-</div>
 
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <div class="card1">
-      <p>calculator</p>
-      <img src="calculator.png" width="160px" height="auto">
-    </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="flip-card-backinv card1" onclick="window.location.href='/projects/calculator';">
-      <h1></h1>
-      <p>was done to get more comfortable with functions and better dom manipulation</p>
+      <div id="gamedev">
+        <div class="bacicsBlock">
+          <div class="basicsBlock2">
+            <p class="basics">Nothing to see yet</p>
+            <div class="line1"></div>
+          </div>
+        </div>
       </div>
-    </div>
-    
-  </div>
-</div>
-
-  </div>
-
-</div>
-
-</div> 
-
-  <script src="script.js"></script>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

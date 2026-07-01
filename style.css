@@ -1054,3 +1054,8 @@ pre {
     border-color: #662e2b;
   }
 }
+
+
+button:hover{
+background-color: #000000;
+}

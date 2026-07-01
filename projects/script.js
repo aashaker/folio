@@ -1,11 +1,8 @@
-// gamedev.onclick=()=>{
-//       alert('testat')
-// }
-// amedev.onclick=()=>{
-//       alert('testat')
-// }
-//   webstuff.classList.add('webshow');
-
-gamedev.onclick=()=>{
-      alert('testat');
+webdesbtn.onclick=()=>{
+webdev.style.display="block";
+gamedev.style.display="none";
+}
+gamedevbtn.onclick=()=>{
+gamedev.style.display="block";
+webdev.style.display="none";
 }
